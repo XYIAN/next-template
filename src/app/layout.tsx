@@ -2,6 +2,14 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 import { PrimeReactProvider } from 'primereact/api';
+import 'primeicons/primeicons.css';
+import '/node_modules/primeflex/primeflex.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+import 'primereact/resources/themes/md-dark-indigo/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+// import Script from 'next/script';
 
 const geistSans = localFont({
     src: './fonts/GeistVF.woff',
@@ -15,7 +23,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-    title: 'Training App Example',
+    title: 'XY Next Template',
     description: 'next 15 and react 18',
 };
 
