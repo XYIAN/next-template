@@ -1,0 +1,20 @@
+.custom-container {
+    width: 70%;
+}
+
+.custom-card {
+    width: 70%;
+    max-width: 70%; /* Default full-width for mobile */
+}
+
+.custom-image {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .custom-card {
+        max-width: 600px; /* Limit the width for tablets and larger devices */
+    }
+}
